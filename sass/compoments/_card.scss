@@ -51,18 +51,18 @@
             background-image: linear-gradient(to right bottom,
              $color-secondary-light, 
              $color-secondary-dark) ,
-             url(../../img/nat-5.jpg);
+             url(../img/nat-5.jpg);
         }
         &--2 {
             background-image: linear-gradient(to right bottom,
              $color-primary-light, 
              $color-primary-dark) ,
-             url(../../img/nat-6.jpg);
+             url(../img/nat-6.jpg);
         }
         &--3 {
             background-image: linear-gradient(to right bottom,
             $color-tertiary-light, 
-            $color-tertiary-dark), url(../../img/nat-7.jpg);
+            $color-tertiary-dark), url(../img/nat-7.jpg);
         }
         @supports (background-blend-mode: screen) {
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 85% , 0 100%);
@@ -174,18 +174,18 @@
                 background-image: linear-gradient(to right bottom,
                 $color-secondary-light, 
                 $color-secondary-dark) ,
-                url(../../img/nat-5.jpg);
+                url(../img/nat-5.jpg);
             }
             &--2 {
                 background-image: linear-gradient(to right bottom,
                 $color-primary-light, 
                 $color-primary-dark) ,
-                url(../../img/nat-6.jpg);
+                url(../img/nat-6.jpg);
             }
             &--3 {
                 background-image: linear-gradient(to right bottom,
                 $color-tertiary-light, 
-                $color-tertiary-dark), url(../../img/nat-7.jpg);
+                $color-tertiary-dark), url(../img/nat-7.jpg);
             }
         }
         //Back side
